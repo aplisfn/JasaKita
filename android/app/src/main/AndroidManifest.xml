@@ -1,4 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dibutuhkan untuk memuat foto, peta, dan pencarian alamat di build rilis -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="jasakita"
         android:name="${applicationName}"
